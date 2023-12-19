@@ -21,7 +21,7 @@ int main()
                 minn=v[j];
                 p=j;
             }
-        swap(v[i],v[p]);
+        swap(v[i],v[p]); //schimba valorile intre pozitii
     }
 
     for(i=1; i<=n; i++)

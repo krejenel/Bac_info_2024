@@ -1,25 +1,21 @@
 #include <iostream>
-#include <bits/stdc++.h>
+#include <string.h>
 using namespace std;
 
 int main()
 {
-    char s[100];
-    cin.getline(s,100);
-    int i,aux=0;
-    for(i=0; i<strlen(s); i++)
+
+    char c[256];
+    cin.get(c,255);
+    int i;
+    c[0]=c[0]-32;
+    for (i=1; i<strlen(c); i++)
     {
-        cout<<s[i]<<" ";
-        if('a'<=s[i]<='z' && aux==0)
-        {
-            s[i]=s[i]-32;
-            aux=1;
-        }
-        else if(s[i]==' ')
-            aux=0;
+        if (c[i]!=' '&&c[i-1]==' ')
+            c[i]=c[i]-32;
 
     }
-    cout<<endl<<s;
+    cout<<c;
 
     return 0;
 }

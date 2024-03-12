@@ -38,6 +38,8 @@ Exercitiul 3 : RAdacina arborelui este 8, iar descendentii nodului 7 sunt 2; 5; 
 
 Exercitiul 4 : Se va afisa "11 *nf*rm*t*c*";
 
+Exercitiul 5 : a[i][j]=(i*j)%10;
+
 Subiectul III 
 
 Exercitiul 1 : c

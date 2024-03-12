@@ -1,0 +1,46 @@
+Subicetul I
+
+Exercitiul 1 : d
+
+Exercitiul 2 :
+ 
+  - subpunctul a : 17396;
+  - subpunctul b : 31; 21; 11;
+  - subpunctul c : 
+
+  include <iostream>
+  using namespace std;
+  
+  int main()
+	{	unsingt int x;
+		int y;
+		cin>>x;
+		y=0;
+		while(x!=0)
+		{	while(x>9)
+			{ x=x/10; }
+		y=y*10+x;
+		cin>>x;
+		}
+		cout<<y;
+		return 0;
+	}
+
+  - subpuctul d : repeta...pana cand; + daca
+
+Subiectul II
+
+Exercitiul 1 : b
+
+Exercitiul 2 : c
+
+Exercitiul 3 : RAdacina arborelui este 8, iar descendentii nodului 7 sunt 2; 5; 6; 3; 4;
+
+Exercitiul 4 : Se va afisa "11 *nf*rm*t*c*";
+
+Subiectul III 
+
+Exercitiul 1 : c
+
+
+					                       

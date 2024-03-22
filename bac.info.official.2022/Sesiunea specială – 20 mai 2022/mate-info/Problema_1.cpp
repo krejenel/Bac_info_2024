@@ -24,7 +24,10 @@ int patrate(int n, int &x, int &y)
         }
     }
     if((x*x)*(y*y)!=n)
-        return 0;
+    {
+        x=0;
+        y=0;
+    }
 }
 
 int main()

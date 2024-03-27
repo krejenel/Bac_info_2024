@@ -4,7 +4,6 @@ using namespace std;
 
 ifstream f("date.in");
 
-
 int main()
 {
     int m,n,i,j,a[101][101]= {},minim=999,nr=0;
